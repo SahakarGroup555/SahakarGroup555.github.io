@@ -1,1 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opening: General Assistant - Sahakar Group</title>
+    
+    <!-- Reusing the style from index.html for consistency -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700&display=swap');
 
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f4f6f9;
+            --text-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        
+        /* Navigation Bar Styling */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background-color: var(--primary-color);
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: var(--secondary-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid var(--secondary-color);
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: var(--secondary-color);
+            margin-top: 30px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            color: var(--primary-color);
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .content {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: var(--secondary-color);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 10px;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-3px);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+
+    <!-- Schema.org JobPosting Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "General Assistant / Office Helper",
+      "description": "<p>Sahakar Group is seeking a dedicated and reliable General Assistant to join our team in Amreli. This entry-level position is perfect for individuals looking to start their career, as no specific educational qualifications or prior experience are required. We value a strong work ethic, willingness to learn, and a positive attitude.</p><h3>Key Responsibilities:</h3><ul><li>Assisting with various day-to-day office tasks.</li><li>Performing basic administrative duties such as filing, organizing, and data entry.</li><li>Supporting team members with their daily operations.</li><li>Maintaining cleanliness and orderliness of the workspace.</li><li>Running errands as needed.</li></ul><h3>Requirements:</h3><ul><li>No formal education required.</li><li>No prior work experience necessary.</li><li>Ability to follow instructions and work independently.</li><li>Good communication skills (basic understanding of Hindi/Gujarati preferred).</li><li>Reliable and punctual.</li><li>Must be based in or willing to relocate to Amreli, Gujarat.</li></ul><p>If you are eager to learn and contribute to a growing team, we encourage you to apply!</p>",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "Sahakar Group",
+        "value": "SG-GA-001" // A unique ID for this specific job posting. Change if you post more jobs.
+      },
+      "datePosted": "2025-08-31", // YYYY-MM-DD - IMPORTANT: Update this to today's date when you publish.
+      "validThrough": "2025-10-31", // YYYY-MM-DD - IMPORTANT: Update this to when the job expires (e.g., 2 months from now).
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Sahakar Group",
+        "sameAs": "https://sahakargroup555.github.io/" // Link to your main website
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Amreli",
+          "addressRegion": "Gujarat",
+          "postalCode": "365601", // Example postal code for Amreli. Use your specific one if known.
+          "addressCountry": "IN"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": 10000,
+          "unitText": "MONTH"
+        }
+      },
+      "educationRequirements": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "No education required"
+      },
+      "experienceRequirements": {
+        "@type": "OccupationalExperienceRequirements",
+        "monthsOfExperience": 0
+      },
+      "applicantLocationRequirements": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Amreli",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      },
+      "url": "https://sahakargroup555.github.io/jobs.html" // The exact URL of this job page.
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="jobs.html">Job Openings</a>
+            <a href="contactus.html">Contact</a>
+        </div>
+        <header>
+            <h1>Sahakar Group</h1>
+            <p>Your Path to a Better Career</p>
+        </header>
+
+        <section class="content">
+            <h2>Job Opening: General Assistant / Office Helper</h2>
+            <p><strong>Company:</strong> Sahakar Group</p>
+            <p><strong>Location:</strong> Amreli, Gujarat, India</p>
+            <p><strong>Salary:</strong> ₹10,000 per month</p>
+            <p><strong>Education:</strong> No specific education required</p>
+
+            <h3>Job Description:</h3>
+            <p>Sahakar Group is seeking a dedicated and reliable General Assistant to join our team in Amreli. This entry-level position is perfect for individuals looking to start their career, as no specific educational qualifications or prior experience are required. We value a strong work ethic, willingness to learn, and a positive attitude.</p>
+
+            <h4>Key Responsibilities:</h4>
+            <ul>
+                <li>Assisting with various day-to-day office tasks.</li>
+                <li>Performing basic administrative duties such as filing, organizing, and data entry.</li>
+                <li>Supporting team members with their daily operations.</li>
+                <li>Maintaining cleanliness and orderliness of the workspace.</li>
+                <li>Running errands as needed.</li>
+            </ul>
+
+            <h4>Requirements:</h4>
+            <ul>
+                <li>No formal education required.</li>
+                <li>No prior work experience necessary.</li>
+                <li>Ability to follow instructions and work independently.</li>
+                <li>Good communication skills (basic understanding of Hindi/Gujarati preferred).</li>
+                <li>Reliable and punctual.</li>
+                <li>Must be based in or willing to relocate to Amreli, Gujarat.</li>
+            </ul>
+
+            <h3>How to Apply:</h3>
+            <p>If you are interested in this opportunity, please send your resume (if available) and a brief introduction about yourself to:</p>
+            <p><a href="mailto:sahakargroup555@gmail.com" class="btn">Email Your Application</a></p>
+            <p>Please mention "Application for General Assistant - Amreli" in the subject line of your email.</p>
+        </section>
+        
+        <div class="contact-info">
+            <h3>Follow and Connect With Us</h3>
+            <a href="https://www.instagram.com/sahakargroup555/" target="_blank">Instagram</a>
+            <span>|</span>
+            <a href="https://www.facebook.com/profile.php?id=61580289110736" target="_blank">Facebook</a>
+            <span>|</span>
+            <a href="mailto:sahakargroup555@gmail.com">sahakargroup555@gmail.com</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Sahakar Group. All rights reserved.</p>
+            <p>Location: Amreli District, Gujarat, India</p>
+        </div>
+    </div>
+</body>
+</html>
