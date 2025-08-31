@@ -3,13 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahakar's GitHub Page</title>
+    <title>Sahakar Group - Job Opportunities</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700&display=swap');
+
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f4f6f9;
+            --text-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid var(--secondary-color);
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: var(--secondary-color);
+            margin-top: 30px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .language-section {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+        }
+
+        .gu-text {
+            font-family: 'Noto Sans Gujarati', sans-serif;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: var(--secondary-color);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 10px;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-3px);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to Sahakar's Page!</h1>
-    <p>This is a custom GitHub Pages site. More content coming soon.</p>
+    <div class="container">
+        <header>
+            <h1>Sahakar Group</h1>
+            <p>Your Path to a Better Career</p>
+        </header>
+
+        <section class="content">
+            <div class="language-section">
+                <h2>Important Announcement (English)</h2>
+                <p>Welcome to Sahakar Group. Our website is currently undergoing maintenance to bring you a better experience. We are actively providing job placement services for both educated and uneducated individuals. We offer complete assistance, from creating your resume and business cards to ensuring you get a high-paying job with facilities like room and food. We have opportunities for everyone, from young to old. Our main office is located in Amreli District, Gujarat.</p>
+                <div class="btn-container">
+                    <a href="mailto:sahakargroup555@gmail.com" class="btn">Email Us</a>
+                    <a href="https://wa.me/91XXXXXXXXXX" class="btn">WhatsApp Us</a>
+                </div>
+            </div>
+
+            <div class="language-section">
+                <h2>महत्वपूर्ण सूचना (Hindi)</h2>
+                <p>सहकार ग्रुप में आपका स्वागत है। हमारी वेबसाइट अभी रखरखाव के अधीन है। हम शिक्षित और अशिक्षित दोनों व्यक्तियों के लिए नौकरी दिलाने का काम कर रहे हैं। हम आपके बायोडाटा और विजिटिंग कार्ड बनाने से लेकर आवास और भोजन जैसी सुविधाओं के साथ अच्छी तनख्वाह वाली नौकरी दिलाने तक की पूरी सहायता प्रदान करते हैं। हमारे पास युवा से लेकर वृद्ध सभी के लिए अवसर हैं। हमारा मुख्य कार्यालय अमरेली जिले, गुजरात में स्थित है।</p>
+                <div class="btn-container">
+                    <a href="mailto:sahakargroup555@gmail.com" class="btn">हमें ईमेल करें</a>
+                    <a href="https://wa.me/91XXXXXXXXXX" class="btn">हमें WhatsApp करें</a>
+                </div>
+            </div>
+
+            <div class="language-section">
+                <h2>મહત્વપૂર્ણ જાહેરાત (Gujarati)</h2>
+                <p class="gu-text">સહકાર ગ્રુપમાં આપનું સ્વાગત છે. અમારી વેબસાઇટ હાલમાં જાળવણી હેઠળ છે. અમે શિક્ષિત અને અશિક્ષિત બંને વ્યક્તિઓ માટે નોકરીની તકો પૂરી પાડીએ છીએ. અમે તમારા રેઝ્યૂમે અને વિઝિટિંગ કાર્ડ બનાવવાથી લઈને રહેવા અને ખાવા-પીવાની સુવિધા સાથે સારી પગારવાળી નોકરી અપાવવા સુધીની સંપૂર્ણ સહાયતા કરીએ છીએ. અમારી પાસે યુવાનથી માંડીને વૃદ્ધ સુધીના દરેક માટે તકો છે. અમારી મુખ્ય ઓફિસ અમરેલી જિલ્લા, ગુજરાતમાં આવેલી છે.</p>
+                <div class="btn-container">
+                    <a href="mailto:sahakargroup555@gmail.com" class="btn gu-text">અમને ઇમેઇલ કરો</a>
+                    <a href="https://wa.me/91XXXXXXXXXX" class="btn gu-text">અમને WhatsApp કરો</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="contact-info">
+            <h3>Follow and Connect With Us</h3>
+            <a href="https://www.instagram.com/sahakargroup555/" target="_blank">Instagram</a>
+            <span>|</span>
+            <a href="https://www.facebook.com/profile.php?id=61580289110736" target="_blank">Facebook</a>
+            <span>|</span>
+            <a href="mailto:sahakargroup555@gmail.com">sahakargroup555@gmail.com</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Sahakar Group. All rights reserved.</p>
+            <p>Location: Amreli District, Gujarat, India</p>
+        </div>
+    </div>
 </body>
 </html>
