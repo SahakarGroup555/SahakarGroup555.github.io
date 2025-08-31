@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sahakar Group</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700&display=swap');
 
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f4f6f9;
+            --text-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background-color: var(--primary-color);
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid var(--secondary-color);
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: var(--secondary-color);
+            margin-top: 30px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            text-align: left;
+            margin: 20px 0;
+            padding: 0 20px;
+            list-style-type: none;
+        }
+
+        li {
+            background: #f0f4f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .gu-text {
+            font-family: 'Noto Sans Gujarati', sans-serif;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="jobs.html">Job Openings</a>
+            <a href="contactus.html">Contact</a>
+        </div>
+        <header>
+            <h1>About Sahakar Group</h1>
+            <p>Our Mission: Empowering Our Community</p>
+        </header>
+
+        <section class="content">
+            <div>
+                <h2>Our Mission (English)</h2>
+                <p>At Sahakar Group, we believe in empowering our local community by providing a wide range of services. Our main focus is on connecting people with meaningful employment opportunities across Gujarat, with a special emphasis on Amreli district and its surrounding cities. We cater to both educated professionals and uneducated workers, ensuring everyone has a chance to build a better future.</p>
+                
+                <h3>What We Do</h3>
+                <ul>
+                    <li><strong>Job Placement Services:</strong> We help both skilled and unskilled individuals find jobs with good salaries and benefits.</li>
+                    <li><strong>Graphic Design Services:</strong> We offer professional graphic work, including business card design, resume creation, logos, banners, and more.</li>
+                    <li><strong>Second-Hand Goods:</strong> We have a strong network for buying and selling a wide range of used items, including furniture, electronics, and computers.</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h2>અમારા વિશે (Gujarati)</h2>
+                <p class="gu-text">સહકાર ગ્રુપમાં, અમે અમારા સ્થાનિક સમુદાયને વિવિધ સેવાઓ પ્રદાન કરીને સશક્તિકરણ કરવાનો વિશ્વાસ રાખીએ છીએ. અમારું મુખ્ય ધ્યાન ગુજરાતભરમાં લોકોને નોકરીની યોગ્ય તકો સાથે જોડવાનું છે, ખાસ કરીને અમરેલી જિલ્લા અને તેની આસપાસના શહેરો પર. અમે શિક્ષિત વ્યાવસાયિકો અને અશિક્ષિત મજૂરો બંનેને મદદ કરીએ છીએ, જેથી દરેકને ઉજ્જવળ ભવિષ્ય બનાવવાની તક મળે.</p>
+                
+                <h3 class="gu-text">અમે શું કરીએ છીએ</h3>
+                <ul>
+                    <li class="gu-text"><strong>નોકરીની સેવાઓ:</strong> અમે કુશળ અને અકુશળ બંને વ્યક્તિઓને સારો પગાર અને સુવિધાઓ સાથે નોકરી શોધવામાં મદદ કરીએ છીએ.</li>
+                    <li class="gu-text"><strong>ગ્રાફિક ડિઝાઇન સેવાઓ:</strong> અમે વ્યાવસાયિક ગ્રાફિક્સનું કામ પણ કરીએ છીએ, જેમાં વિઝિટિંગ કાર્ડ, રેઝ્યુમે, લોગો, બેનર અને વધુનો સમાવેશ થાય છે.</li>
+                    <li class="gu-text"><strong>સેકન્ડ-હેન્ડ વસ્તુઓ:</strong> અમારી પાસે સેકન્ડ-હેન્ડ વસ્તુઓ, જેમ કે ફર્નિચર, ઇલેક્ટ્રોનિક્સ અને કમ્પ્યુટર્સની ખરીદી અને વેચાણ માટેનું મજબૂત નેટવર્ક છે.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="contact-info">
+            <h3>Follow and Connect With Us</h3>
+            <a href="https://www.instagram.com/sahakargroup555/" target="_blank">Instagram</a>
+            <span>|</span>
+            <a href="https://www.facebook.com/profile.php?id=61580289110736" target="_blank">Facebook</a>
+            <span>|</span>
+            <a href="mailto:sahakargroup555@gmail.com">sahakargroup555@gmail.com</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Sahakar Group. All rights reserved.</p>
+            <p>Location: Amreli District, Gujarat, India</p>
+        </div>
+    </div>
+</body>
+</html>
