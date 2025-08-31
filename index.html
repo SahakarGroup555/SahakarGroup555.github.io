@@ -33,6 +33,29 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             border-radius: 12px;
         }
+        
+        /* Navigation Bar Styling */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background-color: var(--primary-color);
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: var(--secondary-color);
+        }
 
         header {
             text-align: center;
@@ -130,6 +153,13 @@
 </head>
 <body>
     <div class="container">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="jobs.html">Job Openings</a>
+            <a href="contactus.html">Contact</a>
+        </div>
         <header>
             <h1>Sahakar Group</h1>
             <p>Your Path to a Better Career</p>
